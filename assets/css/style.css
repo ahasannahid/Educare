@@ -1,6 +1,10 @@
 .c-img{
         filter: brightness(60%);
 }
-/* .carousel-item{
-        height: 90vh;
-} */
+.fa-star{
+        color: gold;
+}
+.company-img{
+        width: 8%;
+}
+
