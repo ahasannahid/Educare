@@ -30,14 +30,9 @@ body {
       .card {
         max-width: 800px !important;
       }
-      /* explore  Optional section*/
-      #counted-achievements-bg {
-        margin-top: 10rem;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
-          url(./images/cover/cover-4.jpg) no-repeat fixed;
-        background-size: cover;
-      }   
-      /* carousol fix for small devices  */
+      .explore{
+        margin-left: -12px;
+      } 
       @media (max-width: 768px) {
         .carousel-item img {
           object-fit: cover;
